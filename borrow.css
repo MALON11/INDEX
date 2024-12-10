@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: #f4f4f4;
+}
+
+.top{
+    background: white;
+    display:grid;
+    grid-template-columns: 1100px 1fr;
+    margin: 1rem;
+    padding: 0.6rem;
+}
+
+
+.second{
+    display: grid;
+    grid-template-columns: 200px 1fr 350px;
+     background: white;
+      margin: 1rem;
+    padding: 0.6rem;
+}
+
+.second p input{
+    padding-left: 8rem;
+    background: white;
+}
+.second input{
+   
+    outline: none;
+    border: none;
+    background: hwb(0 91% 8% / 0.91); 
+    color: black;
+}
+.second svg{
+    color: white;
+    background:#004180;
+  border-radius: 0.2rem;
+}
+
+.container{
+      background: white;
+      margin: 1rem;
+    padding: 0.6rem;
+
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container1 input{
+     margin: 1rem;
+    padding: 0.6rem;
+    outline: none;
+    background: #f4f4f4; 
+    color: black;
+  
+}
+table{
+    width: 100%;
+    margin-top: 4rem;
+    background-color: rgb(186, 195, 195);
+
+}
+th{
+    height: 30px;
+    background-color: rgb(186, 195, 195);
+}
+th,td{
+    padding: 0.6rem;
+    text-align: left;
+}
+.btn{
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    margin-left: 12rem;
+    padding-top: 8rem;
+}
+.btn button{
+    width: 200px;
+    height: 10vh;
+    
+}
+.btn button:hover{
+    background-color: red;
+   border: none;
+}
